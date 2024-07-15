@@ -9,8 +9,8 @@ The following packages are to be installed before running the main file (RHA_mas
 	• py -3.8 -m pip install mpi4py
 	• py -3.8 -m pip install mpi_master_slave
 Note1: Message Passing Interface (MPI) is a standardized and portable way for computers to communicate with each other when working together on a task. pip install mpi4py installs this package for python. 
-Note2: Leader-follower architecture is a sort of a centralized load balancing scheme to efficiently improve the efficiency of parallel computing. mpi_master_slave installs this package for python. This package was previously developed by Luca Scarabello, Landon T. Clipp (https://github.com/luca-s/mpi-master-slave). It has been modified to run MSA using OpenSeespy. Details of this package and some example applications are in the original GitHub page:
- More basic information about the master-slave architecture can be found at: 
+Note2: Leader-follower architecture is a dynamic load balancing scheme to efficiently improve the efficiency of parallel computing. mpi_master_slave installs this package for python. This package was previously developed by Luca Scarabello, Landon T. Clipp (https://github.com/luca-s/mpi-master-slave). It has been modified to run MSA using OpenSeespy. Details of this package and some example applications are in the original GitHub page:
+ More basic information about the leader-follower architecture can be found at: 
 •	https://www.geeksforgeeks.org/master-slave-architecture/ 
 •	https://medium.com/@cpsupriya31/understanding-master-slave-architecture-uses-and-challenges-2acc907de7c4  
 
