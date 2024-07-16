@@ -3,7 +3,6 @@ This document is intended to help users interested in conducting multiple stripe
 The following packages are to be installed before running the main file (RHA_master_slave.py) in the command line:
 1. Install mpiexec using the following link
 	* https://learn.microsoft.com/en-us/message-passing-interface/microsoft-mpi?redirectedfrom=MSDN#ms-mpi-source-code
-	* use msmpisetup.exe and not .msi extension
 2. Install Openseespy and python packages for parallel computing (py-3.8 – m implies python version 3.8. Replace with whatever version is installed on your PC).
 	• py -3.8 -m pip install openseespy
 	• py -3.8 -m pip install mpi4py
