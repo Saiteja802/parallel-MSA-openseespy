@@ -1,4 +1,4 @@
-'Improting the required packages'
+'Modified MSA parallel example prepared based on https://github.com/luca-s/mpi-master-slave'
 from mpi4py import MPI
 from mpi_master_slave import Master, Slave
 from mpi_master_slave import WorkQueue
