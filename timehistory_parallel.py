@@ -26,7 +26,7 @@ def RHA(intensity,gmno,saveloc,GMloc):
     numberer('Plain')     # Use RCM if the model is complex. RCM scheme will renumber dof to minimize stiffness matrix band-width
     algorithm('Linear')	  # Use Linear algorithm as this is a linear elastic analysis.
     test('NormUnbalance', 1.0e-3, 500, 0, 0)
-    integrator('Newmark',0.5,0.25) # using the newmark's average acceleration scheme (implicit scheme)
+    integrator('Newmark',0.5,0.25) # using the Newmark's constant average acceleration scheme (implicit scheme)
     analysis('Transient') # define type of analysis: time-dependent
 
     for i in range(len(gacc)):
