@@ -9,7 +9,7 @@ import os
 'timehistory_parllel.py is the file to run time history analysis with a function RHA defined inside'
 'RHA(k,z) where k is the ground motion number and z is the intensity level'
 'make sure the file name is timehistory_parllel.py and the function file inside is named as RHA'
-from timehistory_parallel import RHA
+from RHA_parallel import RHA
 
 'Run the line below in the command prompt'
 # mpiexec -np 6 C:/Users/ssi178/AppData/Local/anaconda3/python.exe  P:/0_parallel_computing_MSA/RHA_master_slave.py
