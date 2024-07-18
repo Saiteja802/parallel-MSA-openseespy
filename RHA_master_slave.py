@@ -6,9 +6,9 @@ import time
 import numpy as np
 import os
 
-'timehistory_parllel.py is the file to run time history analysis with a function RHA defined inside'
+'RHA_parllel.py is the file to run time history analysis with a function RHA defined inside'
 'RHA(k,z) where k is the ground motion number and z is the intensity level'
-'make sure the file name is timehistory_parllel.py and the function file inside is named as RHA'
+'make sure the file name is RHA_parllel.py and the function file inside is named as RHA'
 from RHA_parallel import RHA
 
 'Run the line below in the command prompt'
