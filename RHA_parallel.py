@@ -16,7 +16,7 @@ def RHA(intensity,gmno,saveloc,GMloc):
     dt     = ts[gmno-1]                                            # time step of the GM
     timeSeries('Path',3,'-dt',dt,'-values',*gacc)   # time series
     pattern('UniformExcitation', 3, 1,'-accel', 3)  # acc loading pattern 
-    'Acceleration response recorder'
+    'Displacement and acceleration response recorder'
     recorder('Node', '-file', saveloc+"/displacement."+str(gmno)+".out", '-time', '-node'  ,*cntrl_nodes, '-dof',1,'disp')  # dispalcement recorder at the control nodes
     recorder('Node', '-file', saveloc+"/acceleration."+str(gmno)+".out",'-timeSeries',3,'-time','-node',*cntrl_nodes,'-dof',1,'accel') # total acceleration recorder at the control nodes
     wipeAnalysis()		  # clear previously-define analysis parameters    
