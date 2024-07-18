@@ -4,7 +4,7 @@ from openseespy.opensees import *
 import numpy as np
 
 
-def THA(intensity,gmno,saveloc,GMloc):            
+def RHA(intensity,gmno,saveloc,GMloc):            
     wipe() # wipe previously existing models
     from Canti2DEQ import cantilever_model # read the building model. Using the first earthquake example from OpenSeespy website. Replace with your building model
     cntrl_nodes = cantilever_model()  #  Run the building model with gravity load and damping applied. Set the analysis time to 0.                     
