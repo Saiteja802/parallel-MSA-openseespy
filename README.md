@@ -29,9 +29,9 @@ Instrcutions to use the code:
 
 Details about timehistory_parallel.py:
 	* The building model defined in Canti2DEQ.py file is imported in line 9 and 10.
-	* Example ground motions at different intensity levels are placed in the folder GMS. Inside the GMS folder, level_1 and level_2 contain ground motions at two intensity levels and also the respective 	   	  recording time steps of the ground motions are in the file named DT. The acceleration data is in incg/sec^2 (as the example cantilevel model uses inches as the units for length). Replace these    		  files based on your intensity levels and the ground motions selected at these levels. Make sure the acceleration and DT file formats are similar to the ones in this example.
+	* Example ground motions at different intensity levels are placed in the folder GMS. Inside the GMS folder, level_1 and level_2 contain ground motions at two intensity levels and also the respective recording time steps of the ground motions are 	  in the file named DT. The acceleration data is in incg/sec^2 (as the example cantilevel model uses inches as the units for length). Replace these files based on your intensity levels and the ground motions selected at these levels. Make sure 	  the acceleration and DT file formats are similar to the ones in this example.
 	* Based on the intensity, gmno, and GMloc inputs, the time step and ground acceleration data are loaded in lines 14, 15, 16.
-	* Based on the specified cntrl_nodes (from cantilever_model), acceleration and displacement time histories are recorded in lines 20 and 21. Here is a good place to add any additional recorders based             on your requirements.
+	* Based on the specified cntrl_nodes (from cantilever_model), acceleration and displacement time histories are recorded in lines 20 and 21. Here is a good place to add any additional recorders based on your requirements.
 	* Change the analysis parameters based on the type of analysis you intend to conduct.
 
 Details about RHA_master_slave.py:
