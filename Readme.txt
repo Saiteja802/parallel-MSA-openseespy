@@ -1,5 +1,7 @@
 ############################### General Notes: Multiple stripe analysis using OpenSeespy and leader-follower architecture #########################
-This document is intended to help users interested in conducting multiple stripe analysis (MSA) using parallel computing. The example code (RHA_master_slave.py) can be used to conduct MSA of a building model using the leader-follower architecture to efficiently run analysis in parallel. 
+This document is intended to help users interested in conducting multiple stripe analysis (MSA) using parallel computing. If you are using this code please cite the following paper: Sistla, S., Chandramohan, R., & Sullivan, T. J. (2025). A macro-model for simulating gusset plate buckling in buckling-restrained braced frame buildings. Earthquake Engineering & Structural Dynamics. DOI: http://doi.org/10.1002/eqe.4383.  
+
+The example code (RHA_master_slave.py) can be used to conduct MSA of a building model using the leader-follower architecture to efficiently run analysis in parallel. 
 The following packages are to be installed before running the main file (RHA_master_slave.py) in the command line:
 1. Install mpiexec using the following link
 	* https://learn.microsoft.com/en-us/message-passing-interface/microsoft-mpi?redirectedfrom=MSDN#ms-mpi-source-code
