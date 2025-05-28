@@ -16,7 +16,7 @@ Note2: Leader-follower architecture is a dynamic load balancing scheme to improv
 	* https://medium.com/@cpsupriya31/understanding-master-slave-architecture-uses-and-challenges-2acc907de7c4  
 
 Instrcutions to use the code:
-1. Step 1: Prepare the required files to conduct MSA using your model. The required files are:
+Step 1: Prepare the required files to conduct MSA using your model. The required files are:
 	* Canti2DEQ.py 
 		* Cantilever 2D EQ ground motion with gravity Analysis example (Canti2DEQ.py) is from the OpenSeespy website (https://openseespydoc.readthedocs.io/en/latest/src/Canti2DEQ.html). 
 		* Replace this with your building model, with the gravity load  and damping applied. 
