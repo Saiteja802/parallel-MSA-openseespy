@@ -1,6 +1,8 @@
-General Notes: Multiple stripe analysis using OpenSeespy and leader-follower architecture
+# <h1 style="font-size: 3.2em; font-weight: bold;">Parallel computing module for multiple stripe analysis</h1>
 
 This document is intended to help users interested in conducting multiple stripe analysis (MSA) using parallel computing. If you are using this code please cite the following paper: Sistla, S., Chandramohan, R., & Sullivan, T. J. (2025). A macro-model for simulating gusset plate buckling in buckling-restrained braced frame buildings. Earthquake Engineering & Structural Dynamics. DOI: http://doi.org/10.1002/eqe.4383.  
+
+<h2 style="font-size: 2em; font-weight: bold;"> General Notes: Multiple stripe analysis using OpenSeespy and leader-follower architecture</h2>
 
 The example code (RHA_master_slave.py) can be used to conduct MSA of a building model using the leader-follower architecture to efficiently run analysis in parallel. 
 The following packages are to be installed before running the main file (RHA_master_slave.py) in the command line:
@@ -15,7 +17,7 @@ Note2: Leader-follower architecture is a dynamic load balancing scheme to improv
 	* https://www.geeksforgeeks.org/master-slave-architecture/ 
 	* https://medium.com/@cpsupriya31/understanding-master-slave-architecture-uses-and-challenges-2acc907de7c4  
 
-Instrcutions to use the code:
+<h2 style="font-size: 2em; font-weight: bold;"> Instrcutions to use the code:</h2>
 1. Prepare the required files to conduct MSA using your model. The required files are:
 	* Canti2DEQ.py 
 		* Cantilever 2D EQ ground motion with gravity Analysis example (Canti2DEQ.py) is from the OpenSeespy website (https://openseespydoc.readthedocs.io/en/latest/src/Canti2DEQ.html). 
